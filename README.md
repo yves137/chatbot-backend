@@ -18,13 +18,13 @@ $ . cbot/bin/activate
 Install dependencies
 
 ```
-$ (venv) pip install -r requirements.txt
+$ (cbot) pip install -r requirements.txt
 ```
 
 Install nltk package
 
 ```
-$ (venv) python
+$ (cbot) python
 >>> import nltk
 >>> nltk.download('punkt')
 ```
@@ -34,12 +34,12 @@ Modify `intents.json` with different intents and responses for your Chatbot
 Run
 
 ```
-$ (venv) python train.py
+$ (cbot) python train.py
 ```
 
 This will dump data.pth file. And then run
 the following command to test it in the console.
 
 ```
-$ (venv) python chat.py
+$ (cbot) python chat.py
 ```
