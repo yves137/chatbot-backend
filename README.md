@@ -1,6 +1,6 @@
 # Chatbot Deployment with Flask
 
-In this Project, I deploy the chatbot I created using pytorch and deploy with Flask.
+In this Project, I built the chatbot using pytorch and deploy with Flask.
 
 ## Initial Setup:
 
